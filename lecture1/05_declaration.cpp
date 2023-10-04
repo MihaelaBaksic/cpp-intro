@@ -1,6 +1,7 @@
 #include <iostream>
 #include "05_declaration.h"
 
+// function is implemented
 int sum_first_n_numbers(int n)
 {
     return (n+1)*n / 2;
