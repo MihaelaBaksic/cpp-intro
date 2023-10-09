@@ -44,6 +44,16 @@ int main()
         cout << "q is nullptr" << endl << endl;
 
 
+    
+    // pointer arithmetic (+ and -)
+    int x[] = {111, 222, 333};
+
+    int* ptr = &x[0];
+
+    cout << *ptr << endl;
+    ptr++;
+    cout << *ptr << endl;
+    cout << *(ptr - 1) << endl << endl;
 
     // pointer to a pointer
 
