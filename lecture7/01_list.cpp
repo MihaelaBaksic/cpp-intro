@@ -28,7 +28,7 @@ int main()
     // accessing element at position 3
     list<int>::iterator it = l.begin(); // iterator pointing to the first element
     advance(it, 3); // move iterator for 3 positions 
-    cout <<  *it << endl; // access the element on index 3
+    cout << *it << endl; // access the element on index 3
 
     // all manipulation of elements at index idx is done through iterators
     int idx = 2;
