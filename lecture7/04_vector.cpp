@@ -41,7 +41,6 @@ int main()
 
 
     // initializing the vector of size 10 with value 2
-    vector<int> v2(10, 2);
-    print_sequential_container(v2);
-    
+    vector v2(10, 2);
+    print_sequential_container(v2);    
 }
